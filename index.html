@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exclusive Content</title>
+    <style>
+        body {
+            font-family: 'Helvetica Neue', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            background: linear-gradient(135deg, #ff9a9e 0%, #fad0c4 99%);
+            background-size: cover;
+            background-attachment: fixed;
+        }
+        .container {
+            background: rgba(255, 255, 255, 0.85);
+            padding: 40px 30px;
+            border-radius: 15px;
+            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+            max-width: 400px;
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+        .container:hover {
+            transform: scale(1.05);
+        }
+        h1 {
+            font-size: 28px;
+            color: #d6336c;
+            margin-bottom: 15px;
+            font-weight: 700;
+        }
+        p {
+            font-size: 18px;
+            color: #444;
+            margin-bottom: 30px;
+        }
+        button {
+            padding: 15px 35px;
+            background-color: #d6336c;
+            color: white;
+            border: none;
+            border-radius: 30px;
+            cursor: pointer;
+            font-size: 18px;
+            font-weight: 600;
+            box-shadow: 0 5px 15px rgba(214, 51, 108, 0.4);
+            transition: background-color 0.3s ease, box-shadow 0.3s ease;
+        }
+        button:hover {
+            background-color: #c02455;
+            box-shadow: 0 8px 25px rgba(192, 36, 85, 0.5);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Hey There, Cutie! 💖</h1>
+        <p>Come and join me for some sweet and playful moments you won’t find anywhere else. Click below to see my exclusive content!</p>
+        <button onclick="openInExternalBrowser()">Click Here</button>
+    </div>
+
+    <script>
+        function openInExternalBrowser() {
+            // Link to your exclusive content
+            window.open('https://onlyfans.com/tinystellax18', '_blank');
+        }
+    </script>
+</body>
+</html>
